@@ -128,7 +128,7 @@
       <MicrophoneComponent name="mic" plugin="None">
         <Param val="auto" valType="str" updates="None" name="channels"/>
         <Param val="5" valType="str" updates="None" name="device"/>
-        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="24000" valType="num" updates="None" name="maxSize"/>
         <Param val="mic" valType="code" updates="None" name="name"/>
@@ -143,7 +143,7 @@
         <Param val="2" valType="code" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="True" valType="bool" updates="None" name="transcribe"/>
-        <Param val="Whisper" valType="code" updates="None" name="transcribeBackend"/>
+        <Param val="Google" valType="code" updates="None" name="transcribeBackend"/>
         <Param val="en-US" valType="str" updates="None" name="transcribeLang"/>
         <Param val="base" valType="code" updates="None" name="transcribeWhisperModel"/>
         <Param val="" valType="list" updates="None" name="transcribeWords"/>
